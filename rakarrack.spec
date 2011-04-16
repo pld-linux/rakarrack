@@ -2,7 +2,7 @@ Summary:	Guitar effects for Linux
 Summary(pl.UTF-8):	Efekty fitarowe dla Linuksa
 Name:		rakarrack
 Version:	0.6.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Multimedia
 Source0:	http://downloads.sourceforge.net/rakarrack/%{name}-%{version}.tar.bz2
@@ -10,6 +10,7 @@ Source0:	http://downloads.sourceforge.net/rakarrack/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-build.patch
 URL:		http://rakarrack.sourceforge.net/
 BuildRequires:	alsa-lib-devel
+BuildRequires:	alsa-utils
 BuildRequires:	fltk-devel
 BuildRequires:	fontconfig-devel
 BuildRequires:	freetype-devel
@@ -20,6 +21,7 @@ BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libXft-devel
 BuildRequires:	xorg-lib-libXpm-devel
 BuildRequires:	xorg-lib-libXrender-devel
+Requires:	alsa-utils
 Requires:	jack-audio-connection-kit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
