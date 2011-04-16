@@ -1,5 +1,5 @@
 Summary:	Guitar effects for Linux
-Summary(pl.UTF-8):	Efekty fitarowe dla Linuksa
+Summary(pl.UTF-8):	Efekty gitarowe dla Linuksa
 Name:		rakarrack
 Version:	0.6.1
 Release:	2
@@ -17,6 +17,7 @@ BuildRequires:	freetype-devel
 BuildRequires:	jack-audio-connection-kit-devel
 BuildRequires:	libsamplerate-devel
 BuildRequires:	libsndfile-devel
+BuildRequires:	pkgconfig
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libXft-devel
 BuildRequires:	xorg-lib-libXpm-devel
