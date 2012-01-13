@@ -2,7 +2,7 @@ Summary:	Guitar effects for Linux
 Summary(pl.UTF-8):	Efekty gitarowe dla Linuksa
 Name:		rakarrack
 Version:	0.6.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Multimedia
 Source0:	http://downloads.sourceforge.net/rakarrack/%{name}-%{version}.tar.bz2
